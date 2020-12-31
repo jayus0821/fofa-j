@@ -84,7 +84,7 @@ def output_to_file(filename, result):
 if __name__ == '__main__':
     banner()
     if len(sys.argv) < 4:
-        print('''Usage:请输入参数\n例如:python X-Fofa.py 'app="Solr"' Solr  94bbbb177c4a564feddb8c7d413d5d61 y\n例如:python FofaCrawler.py 'app="Solr"'(Fofa搜索语法) Solr(搜索结果文件名)  94bbbb177c4a564feddb8c7d413d5d61(Fofa的Cookie的_fofapro_ars_session值) y(保存页面内容)''')
+        print('''Usage:请输入参数\n例如:python fofa-j.py 'app="Solr"' Solr  94bbbb177c4a564feddb8c7d413d5d61 y\n例如:python fofa-j.py 'app="Solr"'(Fofa搜索语法) Solr(搜索结果文件名)  94bbbb177c4a564feddb8c7d413d5d61(Fofa的Cookie的_fofapro_ars_session值) y(保存页面内容)''')
         exit(0)
     search = sys.argv[1]
     filename = sys.argv[2]
